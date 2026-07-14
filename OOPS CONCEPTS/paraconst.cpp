@@ -5,21 +5,13 @@ using namespace std;
 class Teacher 
 {
     private:
-    double salary;
+    double salaray;
 
     public:
     // properties
 
     // parameterized constructor
-
-        Teacher(string n, string d, string s, double sal) // parameterized constructor
-        {
-            cout<<"\nParameterized constructor called\n"<<endl;
-            name = n;
-            department = d;
-            subject = s;
-            salary = sal;
-        }
+    
     string name;
     string department;
     string subject;
@@ -27,13 +19,13 @@ class Teacher
         // setter functions
         void setSalary(double s)
         {
-            salary = s;
+            salaray = s;
         }
 
         // getter functions
         double getSalary()
         {
-            return salary;
+            return salaray;
         }
     // methods / member functions
 
@@ -54,7 +46,9 @@ class Teacher
 
 int main()
 {
-    Teacher t1("JEET", "CSE", "OOPS", 50000);
-    t1.getInfo();
+    Teacher t1;
+    
+
+   
     return 0;
 }
