@@ -5,7 +5,7 @@ using namespace std;
 class Teacher 
 {
     private:
-    double salaray;
+    double salary;
 
     public:
     // properties
@@ -18,7 +18,7 @@ class Teacher
             name = n;
             department = d;
             subject = s;
-            salaray = sal;
+            salary = sal;
         }
     string name;
     string department;
@@ -27,13 +27,13 @@ class Teacher
         // setter functions
         void setSalary(double s)
         {
-            salaray = s;
+            salary = s;
         }
 
         // getter functions
         double getSalary()
         {
-            return salaray;
+            return salary;
         }
     // methods / member functions
 
